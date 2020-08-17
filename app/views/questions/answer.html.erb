@@ -1,0 +1,15 @@
+<!-- display the question you ask your coach as well as his answer. -->
+<h1>Stupid Coaching</h1>
+<div class="question">
+<%= params[:question] %>
+<p>-You</p>
+</div>
+<br>
+<br>
+<div class="answer">
+<%= @answer %>
+<p>-Your coach</p>
+</div>
+<br>
+<br>
+<%= link_to "Ask another question...", ask_path %>

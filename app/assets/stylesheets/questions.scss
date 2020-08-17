@@ -1,0 +1,18 @@
+$gray: #F4F4F4;
+
+body {
+  background: $gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.question {
+   border-left: 6px solid black;
+   padding: 3px 3px 3px 20px;
+   background: white;
+}
+
+.answer {
+ border-left: 6px solid black;
+   padding: 3px 3px 3px 20px;
+   background: yellow;
+}
